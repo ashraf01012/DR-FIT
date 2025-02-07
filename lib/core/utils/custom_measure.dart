@@ -1,4 +1,5 @@
-import 'package:flutter/cupertino.dart';
+// ignore_for_file: use_function_type_syntax_for_parameters, avoid_types_as_parameter_names
+
 import 'package:flutter/material.dart';
 import 'package:vertical_weight_slider/vertical_weight_slider.dart';
 

@@ -1,3 +1,5 @@
+// ignore_for_file: avoid_print
+
 import 'package:bloc/bloc.dart';
 import 'package:bloc_provider/bloc_provider.dart';
 import 'package:dr_fit/core/network/local/cache_helper.dart';

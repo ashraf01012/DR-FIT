@@ -1,4 +1,4 @@
-// ignore_for_file: use_key_in_widget_constructors, must_be_immutable, prefer_const_constructors
+// ignore_for_file: use_key_in_widget_constructors, must_be_immutable, prefer_const_constructors, use_build_context_synchronously
 
 import 'package:dr_fit/core/utils/constants.dart';
 import 'package:dr_fit/features/auth/presentation/screens/login/cubit/cubit.dart';
@@ -75,8 +75,7 @@ class ForgetpasswordScreen extends StatelessWidget {
                                     ),
                                   );
                                   Future.delayed(Duration(seconds: 3), () {
-                                    Navigator.pop(
-                                        context); // Navigate back to the previous page
+                                    Navigator.pop(context); 
                                   });
                                 } catch (e) {
                                   ScaffoldMessenger.of(context).showSnackBar(

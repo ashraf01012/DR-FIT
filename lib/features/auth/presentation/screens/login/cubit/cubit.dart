@@ -1,3 +1,5 @@
+// ignore_for_file: use_build_context_synchronously
+
 import 'package:dr_fit/features/auth/presentation/screens/login/cubit/states.dart';
 import 'package:dr_fit/features/data_entry/intro_screen.dart';
 import 'package:dr_fit/core/utils/component.dart';

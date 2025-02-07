@@ -1,8 +1,11 @@
+// ignore_for_file: prefer_const_constructors_in_immutables, avoid_print
+
 import 'dart:io';
 
 import 'package:dr_fit/core/utils/component.dart';
 import 'package:dr_fit/core/utils/constants.dart';
 import 'package:dr_fit/core/utils/context_extension.dart';
+import 'package:dr_fit/features/drfit_layout/dr_fit_home.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 
@@ -181,7 +184,9 @@ class _InformationScreenState extends State<InformationScreen> {
                     child: defaultButton(
                       width: context.width * .444,
                       function: () {
-                        if (formKey.currentState!.validate()) {}
+                        if (formKey.currentState!.validate()) {
+                          navigateTo(context, DrFitLayout());
+                        }
                       },
                       text: 'التالي',
                       radius: 20,

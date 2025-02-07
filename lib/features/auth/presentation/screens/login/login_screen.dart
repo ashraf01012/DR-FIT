@@ -1,3 +1,5 @@
+// ignore_for_file: use_key_in_widget_constructors, must_be_immutable, sized_box_for_whitespace
+
 import 'package:dr_fit/core/utils/constants.dart';
 import 'package:dr_fit/features/auth/presentation/screens/forgetpassword/forgetpassword_screen.dart';
 import 'package:dr_fit/features/auth/presentation/screens/login/cubit/cubit.dart';

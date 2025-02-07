@@ -1,3 +1,5 @@
+// ignore_for_file: must_be_immutable
+
 import 'package:dr_fit/core/utils/constants.dart';
 import 'package:dr_fit/core/utils/context_extension.dart';
 import 'package:dr_fit/features/onboarding/controller/onboarding_cubit.dart';
